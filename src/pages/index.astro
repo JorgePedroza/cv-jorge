@@ -26,33 +26,72 @@ const projects = (await getCollection('work'))
 ---
 
 <BaseLayout>
-	<div class="stack gap-20 lg:gap-48">
+	<div class="stack gap-20 lg:gap-30">
 		<div class="wrapper stack gap-8 lg:gap-20">
 			<header class="hero">
-				<Hero
-					title="¡Hola! Soy Jorge Antonio Pedroza Rendon"
-					tagline="I am a Creative Developer who is currently based in Portland, Oregon."
-					align="start"
-				>
-					<div class="roles">
-						<Pill><Icon icon="code" size="1.33em" /> Developer</Pill>
-						<Pill><Icon icon="microphone-stage" size="1.33em" /> Speaker</Pill>
-						<Pill><Icon icon="pencil-line" size="1.33em" /> Writer</Pill>
-					</div>
-				</Hero>
-
 				<img
 					alt="Jorge Pedroza smiling in a red plaid shirt and tortoise shell glasses"
 					width="480"
 					height="620"
 					src="/assets/imgPersona.jpeg"
 				/>
+				<Hero
+					title="¡Hola! Soy Jorge Antonio Pedroza Rendon"
+					tagline="Soy un ingeniero en sistemas enfocado en programación. A continuación, te invito a explorar mi portafolio, donde podrás conocer mi trayectoria como programador, así como el enfoque que he adoptado para el trabajo en colaboración con equipos multidisciplinarios. Mantengo un compromiso constante con el aprendizaje y la innovación, buscando contribuir al éxito de proyectos futuros."
+					align="start"
+				>
+					<div class="roles">
+						<Pill><Icon icon="code" size="1.33em" /> Developer</Pill>
+						<Pill><Icon icon="js-logo" size="1.33em" /> JavaScript</Pill>
+						<Pill><Icon icon="java-logo" size="1.33em" /> Java</Pill>
+						<Pill><Icon icon="phone-logo" size="1.33em" /> Flutter</Pill>
+					</div>
+				</Hero>
 			</header>
-
 			<Skills />
 		</div>
 
 		<main class="wrapper stack gap-20 lg:gap-48">
+
+			<section class="section with-background bg-variant">
+				<header class="section-header stack gap-2 lg:gap-4">
+					<h3>Tecnologias</h3>
+					<p>
+						A lo largo de mi desarrollo profesional tuve la oportunidad de aprender nuevas tecnologias
+						que actualmente se han vuelto parte de mi stack como programador como son las siguientes. 
+					</p>
+				</header>
+
+				<div class="gallery">
+					<Grid variant="small">
+						{
+							[
+								{nombre: 'Vue', img:'../../public/assets/vue-icon.png'},
+								{nombre: 'JavaScript', img:'../../public/assets/js-icon.png'},
+								{nombre: 'Flutter', img:'../../public/assets/flutter-icon.png'},
+								{nombre: 'Android', img:'../../public/assets/android-icon.png'},
+								{nombre: 'Spring Boot', img:'../../public/assets/spring-icon.png'},
+								{nombre: 'Jasper Report', img:'../../public/assets/jasper-icon.png'},
+								{nombre: 'Nginx', img:'../../public/assets/nginx-icon.png'},
+								{nombre: 'Node/Express', img:'../../public/assets/node-icon.png'},
+								{nombre: 'SQL', img:'../../public/assets/sql-icon.png'},
+								{nombre: 'Java', img:'../../public/assets/java-icon.png'},
+								{nombre: 'Quasar', img:'../../public/assets/quasar-icon.png'},
+
+
+							
+							].map((brand) => (
+								<li class="mention-card stack">
+									<img src={brand.img} alt={brand.nombre} loading="lazy" decoding="async" style="width: 30%"/>
+									<p style="padding-top: 0.5rem">{brand.nombre}</p>
+								</li>
+								
+							))
+						}
+					</Grid>
+				</div>
+			</section>
+			
 			<section class="section with-background with-cta">
 				<header class="section-header stack gap-2 lg:gap-4">
 					<h3>Selected Work</h3>
@@ -79,27 +118,6 @@ const projects = (await getCollection('work'))
 				</div>
 			</section>
 
-			<section class="section with-background bg-variant">
-				<header class="section-header stack gap-2 lg:gap-4">
-					<h3>Mentions</h3>
-					<p>
-						I have been fortunate enough to receive praise for my work in several publications. Take
-						a look below to learn more.
-					</p>
-				</header>
-
-				<div class="gallery">
-					<Grid variant="small">
-						{
-							['Medium', 'BuzzFeed', 'The Next Web', 'awwwards.', 'TechCrunch'].map((brand) => (
-								<li class="mention-card">
-									<p>{brand}</p>
-								</li>
-							))
-						}
-					</Grid>
-				</div>
-			</section>
 		</main>
 
 		<ContactCTA />
@@ -129,7 +147,7 @@ const projects = (await getCollection('work'))
 	@media (min-width: 50em) {
 		.hero {
 			display: grid;
-			grid-template-columns: 6fr 4fr;
+			grid-template-columns: 4fr 6fr;
 			padding-inline: 2.5rem;
 			gap: 3.75rem;
 		}
