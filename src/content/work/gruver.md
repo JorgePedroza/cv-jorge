@@ -4,32 +4,34 @@ publishDate: 2020-03-02 00:00:00
 img: /assets/gruver.jpg
 img_alt: Iridescent ripples of a bright blue and pink liquid
 description: |
-  We designed a whodunnit-style game to introduce Markdown formatting. Suspense — suspicion — syntax!
+  Desarrollador y lider de equipo para el grupo de programacion de la empresa Gruver.
 tags:
-  - Design
   - Dev
-  - User Testing
+  - Lider de equipo
+  - Analisis
+  - DevOps
 ---
 
-## Level-two heading
+## Desarrolador fullStack
 
-> Tell me and I forget. Teach me and I remember. Involve me and I learn.
+Como desarrollador full-stack, me encargué de realizar la migración de sistemas antiguos a partir del análisis de operación, creando y diseñando la base de datos con SQL Server. Gestionaba el proyecto desde el inicio hasta la entrega final con los usuarios, proporcionando un documento de proyecto como entregable.
+Para el desarrollo, adopté un enfoque de microservicios, creando APIs con backend en Node.js Express y mostrando la información con Vue3/Quasar en el frontend.
+Además, llevé a cabo servicios de reporting con JasperReport y la creación de diversos servicios, tales como autenticación por JWT, manejo de archivos, generación de invitaciones por QR, compresión y manipulación de imágenes, entre otros.
 
-Lorem ipsum dolor sit amet, <a href="https://astro.build/">Astro</a> makes people happy. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Proin nibh nisl condimentum id venenatis a condimentum vitae. Dapibus ultrices in iaculis nunc. Arcu odio ut sem nulla pharetra diam sit amet. Diam quis enim lobortis scelerisque fermentum dui faucibus in ornare.
+Para la implementación de los proyectos, estuve a cargo de la configuración de un servidor basado en Linux. Mi labor abarcó desde la etapa de cotización, compra de dominio (por poner un ejemplo) y lo necesarios hasta la gestión administrativa integral. Además, me encargué de la configuración del servidor utilizando NGINX y el un manejador de procesos que fue pm2.
 
-Arcu dui vivamus arcu felis bibendum ut tristique et egestas. Eget gravida cum sociis natoque penatibus. Cras fermentum odio eu feugiat pretium nibh. Proin nibh nisl condimentum id venenatis. Porta nibh venenatis cras sed felis eget velit. Id diam vel quam elementum pulvinar etiam non.
 
-### Level-three heading
+#### Actividades especificas:
 
-Ultrices tincidunt arcu non sodales neque sodales ut. Sed enim ut sem viverra aliquet eget sit amet. Lacus luctus accumsan tortor posuere ac ut consequat semper viverra. Viverra accumsan in nisl nisi scelerisque eu ultrices. In massa tempor nec feugiat nisl pretium fusce.
+- Solución o mejora de problemas planteados por la empresa por medio de una herramienta de software.
+- Gestión de proyectos por metodologías.
+- Configuración de servidor backend con npm y nginx.
+- Configuración de servidor frontend con apache.
+- Manejo de carga en aplicaciones productivas.
+- Configuración de servidor para imágenes y documentos.
+- Cifrado de información en portales.
+- Manejo de hosting y servicios SSL.
+- Despliegue de proyectos productivo/sanbox
+- Manejo de bd y generación vistas para metricas.
+- Manejo e integración de cambios en git para trabajos en equipo.
 
-### Level-three heading
-
-Sed pulvinar porttitor mi in ultricies. Etiam non dolor gravida eros pulvinar pellentesque et dictum ex. Proin eu ornare ligula, sed condimentum dui. Vivamus tincidunt tellus mi, sed semper ipsum pharetra a. Suspendisse sollicitudin at sapien nec volutpat. Etiam justo urna, laoreet ac lacus sed, ultricies facilisis dolor. Integer posuere, metus vel viverra gravida, risus elit ornare magna, id feugiat erat risus ullamcorper libero. Proin vitae diam auctor, laoreet lorem vitae, varius tellus.
-
-Aenean pretium purus augue, ut bibendum erat convallis quis. Cras condimentum quis velit ac mollis. Suspendisse non purus fringilla, venenatis nisl porta, finibus odio. Curabitur aliquet metus faucibus libero interdum euismod. Morbi sed magna nisl. Morbi odio nibh, facilisis vel sapien eu, tempus tincidunt erat. Nullam erat velit, sagittis at purus quis, tristique scelerisque tortor. Pellentesque lacinia tortor id est aliquam viverra. Vestibulum et diam ac ipsum mollis fringilla.
-
-#### Level-four heading
-
-- We noted this
-- And also this other point
