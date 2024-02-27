@@ -49,6 +49,15 @@ const { Content } = await entry.render();
 					<div class="content">
 						<Content />
 					</div>
+
+					<div class="container">
+						<div class="carousel-view">
+						  <div id="item-list" class="item-list">
+							   <img id="item" class="item" src={entry.data.img1}/>
+							   <img id="item" class="item" src={entry.data.img2}/>
+							</div>
+						  </div>
+					  </div>
 				</div>
 			</main>
 		</div>
@@ -148,4 +157,42 @@ const { Content } = await entry.render();
 			font-size: var(--text-2xl);
 		}
 	}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.carousel-view {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  transition: all 0.25s ease-in;
+}
+
+.carousel-view .item-list {
+  max-width: 950px;
+  width: 70vw;
+  display: flex;
+  gap: 48px;
+  scroll-behavior: smooth;
+  transition: all 0.25s ease-in;
+  overflow: auto;
+  scroll-snap-type: x mandatory;
+}
+
+
+.item {
+  scroll-snap-align: center;
+  min-width: 20rem;
+  background-color: deeppink;
+  border-radius:8px;
+}
+
+
+
 </style>

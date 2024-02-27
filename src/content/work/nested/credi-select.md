@@ -12,7 +12,9 @@ tags:
   - Jasper Report
   - AngularJs
   - Android
-  
+
+img1: /assets/credi2geo.jpeg
+img2: /assets/credi1geo.jpeg
 ---
 
 ## Desarrollador jr 2021
@@ -30,5 +32,3 @@ Asimismo, desempeñé un papel clave en el desarrollo de frontends utilizando An
 
 ------
 ##### Imagenes de desarrollos
-![Texto alternativo](/assets/credi2geo.jpeg)
-![Texto alternativo](/assets/credi1geo.jpeg)
